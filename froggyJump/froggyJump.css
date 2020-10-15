@@ -1,0 +1,47 @@
+.grid{
+   width: 400px;
+   height: 400px;
+   border: 2px solid black;
+   display: flex;
+   flex-wrap: wrap;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: silver;
+}
+
+button{
+    font-size: 30px;
+    padding: 0.5em 1em;
+}
+
+
+
+.target{
+    background-color: red;
+}
+
+.car{
+    background-color: black;
+}
+
+.l1,.l2{
+    background-color:blue;
+}
+
+.l3{
+    background-color: black;
+}
+
+.n1,.n2,.n3{
+    background-color: brown;
+}
+
+.n4,.n5{
+   background-color: deepskyblue;
+}
+
+.frog{
+    background-color: green;
+}

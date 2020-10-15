@@ -1,0 +1,27 @@
+.grid{
+    box-sizing: border-box;
+   width: 404px;
+   height: 404px;
+   border: 2px solid black;
+   display: flex;
+   flex-wrap: wrap;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: silver;
+}
+
+.invader{
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.player{
+   background-color: red;
+}
+
+.bomb{
+    background-color: springgreen;
+    border-radius: 50%;
+}
