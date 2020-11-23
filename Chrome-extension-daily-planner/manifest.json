@@ -1,0 +1,30 @@
+ {
+    "name": "Daily planner",
+    "version": "1.0",
+    "description": "Build an chrome Extension!",
+    "permissions": [
+          "storage",
+          "tabs",
+          "contextMenus"
+     ],
+     "browser_action":{
+      "default_popup": "popup.html",
+        "default_icon": {
+        "16": "images/icons16.png",
+        "32": "images/icons32.png",
+        "48": "images/icons48.png",
+        "128": "images/icons128.png"
+      }
+    },
+    "background":{
+      "scripts" :["packages/progressbar.js","packages/uuidv4.min.js","js/action2.js","js/background.js"],
+      "persistant":false
+    },
+    "icons": {
+      "16": "images/icons16.png",
+      "32": "images/icons32.png",
+      "48": "images/icons48.png",
+      "128": "images/icons128.png"
+    },
+    "manifest_version": 2
+  }
